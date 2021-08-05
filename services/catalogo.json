@@ -1,0 +1,571 @@
+{
+    "Plan1": [
+        {
+            "codigo": "D.1",
+            "area": "Design",
+            "descricao": "Elaboração de template novo para um sistema novo.",
+            "estimativa": "8"
+        },
+        {
+            "codigo": "D.2",
+            "area": "Design",
+            "descricao": "Adaptação de template existente para um sistema novo.",
+            "estimativa": "4"
+        },
+        {
+            "codigo": "D.3",
+            "area": "Design",
+            "descricao": "Elaboração de tela (html/css) baseada em template existente.",
+            "estimativa": "1"
+        },
+        {
+            "codigo": "D.4",
+            "area": "Design",
+            "descricao": "Elaboração de tela (html/css) baseada em template, mas que contenha itens que exijam diagramação única (como um mapa, ou imagem específica).",
+            "estimativa": "2"
+        },
+        {
+            "codigo": "D.5",
+            "area": "Design",
+            "descricao": "Elaboração de tela (html/css/js) com componentes existentes no cookbook.",
+            "estimativa": "4"
+        },
+        {
+            "codigo": "D.6",
+            "area": "Design",
+            "descricao": "Elaboração de tela (html/css/js) com componentes que exijam novos itens ou a personalização de itens do cookbook.",
+            "estimativa": "7"
+        },
+        {
+            "codigo": "D.7",
+            "area": "Design",
+            "descricao": "Alteração de tela (html/css/js) que impacte na personalização de componente.",
+            "estimativa": "4"
+        },
+        {
+            "codigo": "A.1",
+            "area": "Análise",
+            "descricao": "Elaboração do Planejamento do Produto.",
+            "estimativa": "4"
+        },
+        {
+            "codigo": "A.2",
+            "area": "Análise",
+            "descricao": "Elaboração do Desenho/Arquitetura da solução, para projetos novos.",
+            "estimativa": "6 a 30 (acordado previamente, a depender da complexidade do projeto)"
+        },
+        {
+            "codigo": "A.3",
+            "area": "Análise/Design",
+            "descricao": "Criação de protótipo de uma tela baseado em template existente.",
+            "estimativa": "1"
+        },
+        {
+            "codigo": "A.4",
+            "area": "Análise",
+            "descricao": "Modelagem de banco de dados.",
+            "estimativa": "1 por classe de objeto"
+        },
+        {
+            "codigo": "A.5",
+            "area": "Análise",
+            "descricao": "Elaboração de backlog do produto.",
+            "estimativa": "0,5 por funcionalidade"
+        },
+        {
+            "codigo": "A.6",
+            "area": "Análise",
+            "descricao": "Elaboração de backlog do sprint.",
+            "estimativa": "1 por funcionalidade"
+        },
+        {
+            "codigo": "A.7",
+            "area": "Análise",
+            "descricao": "Especificação de funcionalidade para seu desenvolvimento em uma sprint, com criação do User Story.",
+            "estimativa": "2"
+        },
+        {
+            "codigo": "A.8",
+            "area": "Análise",
+            "descricao": "Especificação de funcionalidade para seu desenvolvimento em uma sprint, com criação do User Story e elaboração de protótipo tipo wireframe.",
+            "estimativa": "4"
+        },
+        {
+            "codigo": "P.1",
+            "area": "Programação",
+            "descricao": "Programação de 1 operação de banco (criação, leitura, atualização, remoção) no back-end, com dados submetidos pelo front-end. (Programação completa, incluindo validação do campo, sanitização das “strings” etc.)",
+            "estimativa": "4"
+        },
+        {
+            "codigo": "P.2",
+            "area": "Programação",
+            "descricao": "Programação de 1 operação de banco (criação, leitura, atualização, remoção) no back-end, com dados submetidos pelo front-end. (Programação completa, incluindo validação do campo, sanitização das “strings” etc.), no caso de criação parcialmente automatizada (ex: gerador de CRUD; assistente de formulário; etc).",
+            "estimativa": "2"
+        },
+        {
+            "codigo": "P.3",
+            "area": "Programação",
+            "descricao": "Programação de 1 operação de banco (criação, leitura, atualização, remoção) no back-end, com dados submetidos pelo front-end. (Programação completa, incluindo validação do campo, sanitização das “strings” etc.), baseada em programação semelhante já existente.",
+            "estimativa": "2"
+        },
+        {
+            "codigo": "P.4",
+            "area": "Programação",
+            "descricao": "Programação de 1 funcionalidade simples de usabilidade, no front-end (exemplos: uma caixa de diálogo; em Javascript).",
+            "estimativa": "2 para o primeiro; 0,5 para os demais repetidos no mesmo sistema"
+        },
+        {
+            "codigo": "P.5",
+            "area": "Programação",
+            "descricao": "Programação de validação de campos de formulário, no front-end, com mensagens ao usuário.",
+            "estimativa": "0,5 por campo do formulário"
+        },
+        {
+            "codigo": "P.6",
+            "area": "Programação",
+            "descricao": "Programação de funcionalidade no front-end, com pouca interação com o back-end.",
+            "estimativa": "2"
+        },
+        {
+            "codigo": "P.7",
+            "area": "Programação",
+            "descricao": "Programação de funcionalidade no front-end, completa, com tratamento de dados, validação, submissão ao back-end e tratamento e incorporação do retorno.",
+            "estimativa": "4"
+        },
+        {
+            "codigo": "P.8",
+            "area": "Programação",
+            "descricao": "Programação de teste unitário. A programação de teste unitário será remunerada com o mesmo número de USTs da função/método/serviço que esse teste visa a testar. Por exemplo: uma programação de 1 operação de banco tem remuneração de 4 USTs. Assim, o teste unitário para testar essa programação será remunerado em 4 USTs.",
+            "estimativa": "Conforme explicado na descrição."
+        },
+        {
+            "codigo": "T.1",
+            "area": "Teste",
+            "descricao": "Teste e Debug.",
+            "estimativa": "1 por funcionalidade"
+        },
+        {
+            "codigo": "H.1",
+            "area": "Homologação",
+            "descricao": "Reunião de apresentação e validação.",
+            "estimativa": "1 por hora de reunião (a quantidade total de horas deve ser, sempre, pré-aprovada)"
+        },
+        {
+            "codigo": "IM.1",
+            "area": "Implantação",
+            "descricao": "Implantação do sistema em homologação (trabalho completo, incluindo geração de builds, scripts etc.)",
+            "estimativa": "2"
+        },
+        {
+            "codigo": "IM.2",
+            "area": "Implantação",
+            "descricao": "Implantação do sistema em produção (trabalho completo, incluindo geração de builds, scripts etc.)",
+            "estimativa": "2"
+        },
+        {
+            "codigo": "DOC.1",
+            "area": "Documentação",
+            "descricao": "Elaboração de Manual do Usuário.",
+            "estimativa": "1 por três funcionalidades"
+        },
+        {
+            "codigo": "DOC.2",
+            "area": "Documentação",
+            "descricao": "Elaboração de Documento de Revisão.",
+            "estimativa": "1.5"
+        },
+        {
+            "codigo": "DOC.3",
+            "area": "Documentação",
+            "descricao": "Elaboração de Documento de Retrospectiva.",
+            "estimativa": "0,5 por sugestão, com análise referente ao contexto do projeto específico"
+        },
+        {
+            "codigo": "DOC.4",
+            "area": "Documentação",
+            "descricao": "Elaboração de Documento de Lições Aprendidas.",
+            "estimativa": "1 por lição inédita (aprovada pelo MRE)"
+        },
+        {
+            "codigo": "IC.1",
+            "area": "Construção",
+            "descricao": "Criação de plano de build no bamboo, incluindo TAG e Construção.",
+            "estimativa": "4"
+        },
+        {
+            "codigo": "IC.2",
+            "area": "Construção",
+            "descricao": "Criação de plano de build no bamboo, incluindo teste unitário e Sonar.",
+            "estimativa": "6"
+        },
+        {
+            "codigo": "IC.3",
+            "area": "Construção",
+            "descricao": "Criação de plano de deploy no bamboo, para os 3 ambientes (dev, homolog e produção).",
+            "estimativa": "10"
+        },
+        {
+            "codigo": "IC.4",
+            "area": "Construção",
+            "descricao": "Criação de plano de deploy no bamboo, para os 3 ambientes (dev, homolog e produção), no caso de builds de front-end que incluam mais tarefas (como bower e grunt).",
+            "estimativa": "12"
+        },
+        {
+            "codigo": "Manutenção de sistemas legados"
+        },
+        {
+            "codigo": "Código",
+            "area": "Área",
+            "descricao": "Descrição da Atividade  ",
+            "estimativa": "Estimativa USTs"
+        },
+        {
+            "codigo": "M.1",
+            "area": "Monitoramento",
+            "descricao": "Alteração pontual em tela (html/css) existente.",
+            "estimativa": "0,5 por sistema monitorado"
+        },
+        {
+            "codigo": "D.8",
+            "area": "Design",
+            "descricao": "Alteração pontual em tela (html/css) existente.",
+            "estimativa": "0.5"
+        },
+        {
+            "codigo": "CMS.1",
+            "area": "CMS",
+            "descricao": "Criação de Kitweb, incluindo configuração, teste e debug, e implantação em produção",
+            "estimativa": "3"
+        },
+        {
+            "codigo": "CMS.2",
+            "area": "CMS",
+            "descricao": "Correção de problema de XML em Kitweb",
+            "estimativa": "1.5"
+        },
+        {
+            "codigo": "CMS.3",
+            "area": "CMS",
+            "descricao": "Instalação, configuração, teste e debug, e implantação em produção de plug-in",
+            "estimativa": "1.5"
+        },
+        {
+            "codigo": "CMS.4",
+            "area": "CMS",
+            "descricao": "Configuração de plug-in",
+            "estimativa": "1"
+        },
+        {
+            "codigo": "CMS.5",
+            "area": "CMS",
+            "descricao": "Configuração de funcionalidade.",
+            "estimativa": "0,5 por funcionalidae"
+        },
+        {
+            "codigo": "CMS.6",
+            "area": "CMS",
+            "descricao": "Atualização de software de CMS, incluindo configuração, teste e debug, e implantação em produção.",
+            "estimativa": "3"
+        },
+        {
+            "codigo": "CMS.7",
+            "area": "CMS",
+            "descricao": "Mediawiki - Revisão de estilo de 1 verbete.",
+            "estimativa": "0.5"
+        },
+        {
+            "codigo": "CMS.8",
+            "area": "CMS",
+            "descricao": "Mediawiki - Criação ou migração de 1 verbete, com até 5. arquivos anexos.",
+            "estimativa": "0.5"
+        },
+        {
+            "codigo": "CMS.9",
+            "area": "CMS",
+            "descricao": "Mediawiki - Criação ou migração de 1 verbete, com até 20 arquivos anexos.",
+            "estimativa": "2"
+        },
+        {
+            "codigo": "CMS.10",
+            "area": "CMS",
+            "descricao": "Mediawiki - Criação ou migração de 1 verbete, com até 50 arquivos anexos.",
+            "estimativa": "3"
+        },
+        {
+            "codigo": "CMS.11",
+            "area": "CMS",
+            "descricao": "Mediawiki - Criação ou migração de 1 verbete, com mais de 50 arquivos anexos.",
+            "estimativa": "4"
+        },
+        {
+            "codigo": "W.1",
+            "area": "Sistemas WEB",
+            "descricao": "Concessão/revogação de acesso a sistemas web, via área administrativa.",
+            "estimativa": "0,5 por 3 usuários"
+        },
+        {
+            "codigo": "W.2",
+            "area": "Sistemas WEB",
+            "descricao": "Concessão/Revogação de acesso a sistemas web, via hardcode.",
+            "estimativa": "1 por 3 usuários"
+        },
+        {
+            "codigo": "PA.1",
+            "area": "Pré-Análise",
+            "descricao": "Avaliação exploratória (diagnóstico) de problemas em sistema.&#10;Para problemas complexos, sem causa aparente. Deverá incluir descrição das atividades realizadas para o pagamento. O resultado desta atividade poderá ser:&#10;1) Problema resolvido;&#10;2) Problema não resolvido, mas diagnóstico feito;&#10;3) Problema não resolvido, e causa não identificada. Neste caso, pode-se autorizar nova exploratória (esta ou a complexa) mediante a devida justificativa.",
+            "estimativa": "2"
+        },
+        {
+            "codigo": "PA.2",
+            "area": "Pré-Análise",
+            "descricao": "Avaliação exploratória (diagnóstico) de problemas complexos em sistema, em que o defeito seja intermitente. Para problemas complexos, sem causa aparente. Deverá incluir descrição das atividades realizadas para o pagamento.",
+            "estimativa": "6"
+        },
+        {
+            "codigo": "PA.3",
+            "area": "Pré-Análise",
+            "descricao": "Análise para elaboração de proposta de solução/pré-projeto.   Para demandas que, por sua complexidade, exijam esforço de análise prévio à elaboração da estimativa de esforço.",
+            "estimativa": "1 por funcionalidade"
+        },
+        {
+            "codigo": "A.9",
+            "area": "Análise",
+            "descricao": "Análise e elaboração do Desenho/Arquitetura da solução, para manutenção",
+            "estimativa": "2"
+        },
+        {
+            "codigo": "A.10",
+            "area": "Análise",
+            "descricao": "Análise e elaboração do Desenho/Arquitetura da solução, para manutenção, para casos de soluções complexas, que envolvam alterações no negócio e no fluxo da aplicação",
+            "estimativa": "6"
+        },
+        {
+            "codigo": "A.11",
+            "area": "Análise",
+            "descricao": "Análise de funcionalidade para manutenção – problemas simples. Em analogia item: elaboração de backlog do sprint.",
+            "estimativa": "1"
+        },
+        {
+            "codigo": "P.9",
+            "area": "Programação",
+            "descricao": "Correção de problema relacionado a operação de banco (CRUD), envolvendo soluções de: programação; script de banco; e/ou consultoria sobre outras camadas (ex: infra). Inclui a análise e a solução. (Problemas simples)",
+            "estimativa": "3"
+        },
+        {
+            "codigo": "P.10",
+            "area": "Programação",
+            "descricao": "Alteração de programação de operação de banco, com até 10 campos. Esta atividade envolve todo o escopo da alteração (banco e programação).",
+            "estimativa": "2"
+        },
+        {
+            "codigo": "P.11",
+            "area": "Programação",
+            "descricao": "Alteração de programação de operação de banco, com mais de 10 campos. Esta atividade envolve todo o escopo da alteração (banco e programação).",
+            "estimativa": "2.5"
+        },
+        {
+            "codigo": "P.12",
+            "area": "Programação",
+            "descricao": "Alteração pontual de funcionalidade existente.",
+            "estimativa": "0,5 por método ou a cada 3 alterações"
+        },
+        {
+            "codigo": "P.13",
+            "area": "Programação",
+            "descricao": "Alteração de funcionalidade que implique mudança em lógica, algoritmo ou implementação.",
+            "estimativa": "2"
+        },
+        {
+            "codigo": "P.14",
+            "area": "Programação",
+            "descricao": "Programação de método para gravação de logs, com teste e debug incluídos. Esta mensuração não engloba o teste unitário, o qual, seguindo as regras atuais, conferiria mais 2 USTs à Contratada.",
+            "estimativa": "2"
+        },
+        {
+            "codigo": "T.2",
+            "area": "Teste",
+            "descricao": "Teste e Debug para manutenção.",
+            "estimativa": "0,5 por funcionalidade"
+        },
+        {
+            "codigo": "T.3",
+            "area": "Teste",
+            "descricao": "Teste e Debug para manutenção, de sistemas críticos, com dependências de outros sistemas.",
+            "estimativa": "2 por funcionalidade"
+        },
+        {
+            "codigo": "T.4",
+            "area": "Teste",
+            "descricao": "Teste e Debug para validação com a área gestora (cliente) in loco. Por exemplo, validação do QA com a equipe do DSE.",
+            "estimativa": "1"
+        },
+        {
+            "codigo": "IM.3",
+            "area": "Implantação",
+            "descricao": "Implantação do sistema em homologação (trabalho completo, incluindo geração de builds, scripts etc.) para manutenção.",
+            "estimativa": "0.5"
+        },
+        {
+            "codigo": "IM.4",
+            "area": "Implantação",
+            "descricao": "Implantação do sistema em produção (trabalho completo, incluindo geração de builds, scripts etc.) para manutenção.",
+            "estimativa": "0.5"
+        },
+        {
+            "codigo": "IM.5",
+            "area": "Implantação",
+            "descricao": "Publicação de arquivos (para download etc.)",
+            "estimativa": "0,5 por servidor destino"
+        },
+        {
+            "codigo": "IM.6",
+            "area": "Implantação",
+            "descricao": "Análise de problema em subida/funcionamento de versão. Esta análise somente será remunerada se, ao seu final, confirmar-se que o problema é do MRE. Se for erro causado pela CONTRATADA, o item não é remunerado.",
+            "estimativa": "2"
+        },
+        {
+            "codigo": "ACC.1",
+            "area": "Sistemas Legados Access",
+            "descricao": "Concessão de Acesso a Usuário. Inclui: 1) Pesquisa nas bases de dados para localização do login; 2) Análise de fonte para identificar permissões de acesso; 3) Atendimento no local do usuário para mapear os acessos no terminal; 4) Cadastrar o login na aplicação; 5) Testar o funcionamento do sistema.",
+            "estimativa": "2"
+        },
+        {
+            "codigo": "ACC.2",
+            "area": "Sistemas Legados Access",
+            "descricao": "Correção de problema de banco de dados, envolvendo recuperação de dados e solução do problema",
+            "estimativa": "1"
+        },
+        {
+            "codigo": "ACC.3",
+            "area": "Sistemas Legados Access",
+            "descricao": "Alteração pontual em tela existente",
+            "estimativa": "0.5"
+        },
+        {
+            "codigo": "ACC.4",
+            "area": "Sistemas Legados Access",
+            "descricao": "Elaboração de relatório com novo layout",
+            "estimativa": "2"
+        },
+        {
+            "codigo": "ACC.5",
+            "area": "Sistemas Legados Access",
+            "descricao": "Elaboração de relatório baseado em layout existente",
+            "estimativa": "0.5"
+        },
+        {
+            "codigo": "ACC.6",
+            "area": "Sistemas Legados Access com MDB",
+            "descricao": "Geração do instalador com atualização do MDB",
+            "estimativa": "0,5 por instalador"
+        },
+        {
+            "codigo": "Consultoria"
+        },
+        {
+            "codigo": "Código",
+            "area": "Área",
+            "descricao": "Descrição da Atividade  ",
+            "estimativa": "Estimativa USTs"
+        },
+        {
+            "codigo": "COM.1",
+            "area": "Consultoria",
+            "descricao": "Participação de reunião para consultoria técnica.  Somente funcionários do DTIC estão pré-autorizados a solicitar esta demanda.",
+            "estimativa": "1 por hora de consultoria"
+        },
+        {
+            "codigo": "COM.2",
+            "area": "Consultoria",
+            "descricao": "Consultoria para solução de problema. Somente funcionários do DTIC estão pré-autorizados a solicitar esta demanda.",
+            "estimativa": "1 por hora de consultoria"
+        },
+        {
+            "codigo": "COM.3",
+            "area": "Consultoria",
+            "descricao": "Análise técnica. Demanda de análise para, em especial, dirimir dúvidas sobre o funcionamento do sistema, esclarecer aspectos do seu funcionamento etc.",
+            "estimativa": "1 por método ou funcionalidade; ou 1 por hora de consultoria"
+        },
+        {
+            "codigo": "COM.4",
+            "area": "Consultoria",
+            "descricao": "Serviço especializado em design gráfico e web, como editoração de conteúdo, diagramação, elaboração de arte e assessoria em design.",
+            "estimativa": "1 por hora de consultoria"
+        },
+        {
+            "codigo": "COM.5",
+            "area": "Consultoria",
+            "descricao": "Treinamento/Suporte técnico sobre uso de ferramentas",
+            "estimativa": "1 por hora de consultoria"
+        },
+        {
+            "codigo": "COM.6",
+            "area": "Consultoria",
+            "descricao": "Consultoria para programação. Atividades de programação que não se encaixam nos itens do Repertório relativos a programação. Geralmente, isso ocorrerá nos casos de atividade de programação bem específica (algoritmos incomuns, por exemplo), que não se referem a atividades de interação (por exemplo: back-end com banco) e, ainda, que não justificariam a criação de item específico.",
+            "estimativa": "1 por hora de consultoria"
+        },
+        {
+            "codigo": "Banco de Dados"
+        },
+        {
+            "codigo": "Código",
+            "area": "Área",
+            "descricao": "Descrição da Atividade  ",
+            "estimativa": "Estimativa USTs"
+        },
+        {
+            "codigo": "DB. 1",
+            "area": "Banco",
+            "descricao": "Criação de script para operação direta em banco de dados, incluindo até 10 sub-variações em seus parâmetros. A exportação de dados será, em geral, mais simples do que a importação (pois nesta há verificação de integridade de dados, relacionamentos etc.). Neste caso, poder-se-á remunerar cada operação de importação em separado, ainda que estivessem contidas no conceito de “sub-variações”.",
+            "estimativa": "2"
+        },
+        {
+            "codigo": "DB. 2",
+            "area": "Banco",
+            "descricao": "Teste de script de operação direta em banco de dados (apenas quando necessário).",
+            "estimativa": "0.5"
+        },
+        {
+            "codigo": "DB. 3",
+            "area": "Banco",
+            "descricao": "Alteração de tabela, até 5 colunas.",
+            "estimativa": "0.5"
+        },
+        {
+            "codigo": "DB. 4",
+            "area": "Banco",
+            "descricao": "Alteração de tabela, mais de 5 colunas.",
+            "estimativa": "0.5"
+        },
+        {
+            "codigo": "Estudo Código Fonte"
+        },
+        {
+            "codigo": "Código",
+            "area": "Área",
+            "descricao": "Descrição da Atividade  ",
+            "estimativa": "Estimativa USTs"
+        },
+        {
+            "codigo": "CF. 1",
+            "area": "Análise",
+            "descricao": "Estudo do código-fonte de sistema. Conforme TR, é exigido entregável por escrito e apresentação oral. A profundidade (detalhamento) do entregável e da apresentação será negociada previamente, e condicionada à quantidade de USTs demandada.",
+            "estimativa": "1 por hora de estudo"
+        },
+        {
+            "codigo": "Pleito"
+        },
+        {
+            "codigo": "Código",
+            "area": "Área",
+            "descricao": "Descrição da Atividade  ",
+            "estimativa": "Estimativa USTs"
+        },
+        {
+            "codigo": "PL.1",
+            "area": "Pleito",
+            "descricao": "Pleito. Refere-se a compensar trabalho extra realizado pela CONTRATADA devido a erros do MRE que sobrevierem no decorrer de uma demanda. Não são remuneráveis como pleito: - Erros anteriores à demanda que deveriam ter sido analisados previamente; - Erros que não tenham gerado impacto no esforço da CONTRATADA.",
+            "estimativa": "1 por hora"
+        }
+    ]
+}
